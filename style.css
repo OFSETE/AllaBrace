@@ -1,0 +1,40 @@
+body {
+    background: #FFFFFF url("imgs/Fundopc.png");
+    background-size: cover;
+  }
+  
+  .logo-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .logo-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #FF3131;
+    border-radius: 17%;
+    color: white;
+    font-size: 16px;
+    padding: 5px 20px;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .logo-container img {
+      max-width: 80%;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
