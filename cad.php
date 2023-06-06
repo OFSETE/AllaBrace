@@ -9,11 +9,11 @@
 </head>
 <body>
     <div class="telalog">
-        <h1>Login</h1>
+        <h1>Cadastrar Gerente</h1>
         <form method="POST" action="form.php">
-        <label>Email </label>
+        <label>Nome</label>
         <br><br>
-        <input class="nm" type="email" name="Email" required placeholder="Digite aqui">
+        <input class="nm" type="name." name="name" required placeholder="Digite aqui">
         <br><br>
         <label>Senha </label>
         <br><br>
@@ -24,4 +24,4 @@
     <h1 class="mmmm" >Ainda não possuí uma conta? <a id="iii" href="cad.php"> Crie aqui</a></h1>
     </div>
 </body>
-</html>
+</html> 

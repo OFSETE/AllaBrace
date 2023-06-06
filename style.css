@@ -19,12 +19,11 @@ body {
     margin-top: 20px;
   }
   
-  button {
+  .butao {
     background-color: red;
-    border: none;
-    width: 100%;
-    
+    border-radius: 10px;
     padding: 15px;
+    width: 100px;
   }
   
   @media screen and (max-width: 480px) {
@@ -47,4 +46,17 @@ body {
    padding: 80px;
    border-radius: 15px;
    color: white;
+  }
+
+  .nm {
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .mmmm {
+    font-size: 9px;
+  }
+
+  #iii {
+    color: red;
   }
