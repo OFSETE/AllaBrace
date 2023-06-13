@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tela de Cadastro</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <style>
+  select {
+    width: 200px;
+    padding: 5px;
+    margin-top: 5px;
+  }
+
+  
+  label {
+    display: block;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Calcular Comissões:</h1>
+    <center>
+    <div class="input-group">
+      <label for="mes">Mês:</label>
+      <select id="mes">
+        <option value="janeiro">Janeiro</option>
+        <option value="fevereiro">Fevereiro</option>
+        <option value="marco">Março</option>
+        <option value="janeiro">Abril</option>
+        <option value="fevereiro">Maio</option>
+        <option value="marco">Junho</option>
+        <option value="janeiro">Julho</option>
+        <option value="fevereiro">Agosto</option>
+        <option value="marco">Setembro</option>
+        <option value="janeiro">Outubro</option>
+        <option value="fevereiro">Novenbro</option>
+        <option value="marco">Dezenbro</option>
+      </select>
+    </div>
+    <div class="input-group">
+      <label for="garcom">Garçom:</label>
+      <select id="garcom">
+        <option value="garcom1">Garçom 1</option>
+        <option value="garcom2">Garçom 2</option>
+        <option value="garcom3">Garçom 3</option>
+      </select>
+  </div>
+  <p id="debax">*cada comissão è calculada adicionando o 10% sob o valor de todas as contas atendidas por ele</p>
+  <button class="confirmar-button">Confirmar</button></center>
+</body>
+</html>

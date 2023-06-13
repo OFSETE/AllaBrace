@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tela de Cadastro</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <script src="script.js"></script>
+  <style>
+  .peso {
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .peso {
+    content: "Kg";
+    margin-left: 5px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Cadastro</h1>
+    <form>
+      <input type="text" placeholder="Nome">
+      <input type="number" step="any" placeholder="Peso em kg" id="numero" oninput="validarNumero(this)">
+      <input type="text" id="preco" onkeyup="formatarPreco(this)" placeholder="Valor">
+      <input type="number" step="any" placeholder="Quantidade" id="numero" oninput="validarNumero(this)">
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+</body>
+</html>

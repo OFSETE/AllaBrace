@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tela de Cadastro</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <h1>Cadastrar Gerente</h1>
+    <form>
+      <input type="text" placeholder="Nome">
+      <input type="text" placeholder="Escolaridade" list="faixa">
+      <datalist id="faixa">
+        <option value="">faixa etária:</option>
+        <option value="Fundamental Completo"></option>
+        <option value="Medio Completo"></option>
+        <option value="Segundo Grau"></option>
+      </datalist>
+      <input type="date">
+      <input type="tel" placeholder="Telefone">
+      <input type="text" placeholder="Endereço">
+		<input type="text" name="cpf" \
+    pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="CPF">
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Senha">
+    <input type="password" placeholder="Confirme a Senha"><center>
+      <a href="cadsDOG.html"><button type="button">Cadastrar</button></a></center>
+    </form>
+  </div>
+</body>
+</html>
